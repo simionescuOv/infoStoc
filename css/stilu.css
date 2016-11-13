@@ -1,0 +1,77 @@
+.infoli{
+    line-height: 1.2;
+}
+
+.unghiafoto{
+        padding: 5px;
+        margin-bottom: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+}
+.dinfo{
+    display: inline-block;
+  width: 185px;
+ //   height: 200px;
+}
+.dfoto{
+     //width: 145px;
+   // height: 200px;
+    float: left;
+    margin-right: 9px;
+    display: inline-block;
+}
+
+.poza{
+    background: url(../img/menu.jpg);
+    width: 96px;
+	height: 96px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.elmulli{
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    list-style-type: none;
+    padding-left: 5px;
+    
+}
+.cadruElmAic{
+    //border: black 10px;
+}
+.elmli{
+  //  list-style-type: none;
+   // background-color: beige;
+   // padding-bottom: 20px;
+}
+.elmkey{
+   // margin: 10px 15px;
+    background-color: lemonchiffon;
+}
+.elmav{
+   // background-color: aliceblue;
+}
+.inkey{
+    padding: 10px 10px;
+}
+.inav{
+    padding: 10px 20px;
+}
+.farap{
+    padding: 0px 0px;
+}
+.mb0{ 
+   margin-bottom: 0px
+}
+.icbactiv{
+	background: url(../img/icb.png) no-repeat -1px -2.3px;
+}
+.icbinactiv{
+	background: url(../img/icb.png) no-repeat -30px -2.3px;
+}
+.icb{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}	

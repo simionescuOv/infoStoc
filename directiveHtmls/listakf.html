@@ -1,0 +1,41 @@
+ 
+<section >  <!-- containaru -->
+                                                                    <!-- <div ng-controller="focusCtrl as fcs"> -->
+    <ul class="list-group"  ng-controller="elmKeyCtrl as ekc">
+     <li class="list-group-item farap" ng-repeat="keyElm in obDate.dateCtrl.titluri">
+         <a id='{{keyElm}}' href='#{{keyElm}}' ng-click="ekc.apasElm($index,keyElm)" >
+              <div class="inkey  elmkey"><span >{{keyElm}}</span> </div>
+             
+         </a>              <!-- copilu   -->
+       <div  ng-show="ekc.arata[keyElm]"   ng-controller="elmAvCtrl as eav">
+        
+              <input class='cautarea' id='{{ekc.setareAidi(keyElm)}}' type={{ekc.obtTipul(keyElm)}}
+                     ng-model="filtrareLaivx" 
+                     placeholder="cautate"  onfocus='focusaretreabamare(this)'
+                     focusare-pe={{keyElm}} >
+           
+          <!-- nRezultate=--> {{rezFiltrare.length}}
+              <ul class="list-group mb0"   > 
+                    <li class="list-group-item farap"
+         ng-repeat="avElm in rezFiltrare=( obDate.dateCtrl.continut[keyElm]  | filter: filtrareLaivx) | limitTo: 5 "> 
+                                                                        <!--  ng-repeat="avElm in obDate.dateCtrl.continut[keyElm]  | filter: filtrareLaivx | limitTo: 5 ">  -->
+                        <!--valoareKey-->
+                        <div class="elmav"     ng-click="eav.apasElm($index,keyElm,avElm)">
+                          <div class="inav">
+                              <span ng-class="eav.selectare"></span>
+                              <span >{{avElm}}</span> </div>
+                        </div>
+
+                    </li>
+             </ul> 
+        </div>
+         <!-- sf.copilu  -->
+     </li>
+    </ul>  
+  <!-- </div> -->
+</section>  <!-- sf.containaru -->  
+
+
+<!-- <div class="elmkey" ng-click="ekc.apasElm($index,keyElm)">
+                <div class="inkey"><span >{{keyElm}}</span> </div>
+              </div>-->

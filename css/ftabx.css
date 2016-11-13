@@ -1,0 +1,153 @@
+.ascuns{
+	display:none;
+}
+.dunga{
+	// background-color: yellow;
+}
+.inapoi{
+	background-color:cyan;//rgb(37, 247, 180);
+}
+.flft{
+    float: left;
+}
+.aliniereDr{
+	float: right;
+    
+}
+.punelaStg{//pune la stanga
+	float: left;
+}
+.stilDr{
+	color: blue;
+	margin-right: 5px;
+	font-weight: bold;
+}
+.elmdiv{
+	//background-color: blue;
+}
+.numeTcol{ 
+	color: black;
+	margin-left: 5px;
+	font-weight: bold;
+}
+.elmBif{
+	//background-color: rgba(250, 253, 152, 1);
+	list-style-type: none;
+	margin-left: -32px;
+margin-bottom: 8px;
+border-bottom-style: groove;
+border-bottom-width: thin;
+}
+.elm{
+	//background-color: rgb(229, 248, 238);
+	margin-bottom: 10px;
+ border-bottom-style: solid;
+ border-bottom-width: 3px;
+ border-color: beige; //deepskyblue;
+ -webkit-box-shadow: 0px 0px 5px #888888;
+ height: 24px;
+}
+.niv0{
+	list-style-type: none;
+	margin-left: -35px;
+	background-color: beige;
+	
+}
+li:last-child.elmBif{
+	border-bottom-style: solid;
+ border-bottom-width: 2px;
+ 	margin-bottom: 12px;
+}
+.tvd{
+	//margin-left:15px;
+	//width: 25px;
+//	height: 25px;
+	//background-color: pink;
+	display: inline-block;
+	//margin-left: 12px;
+	padding-left: 4px;
+}
+.icbactiv{
+	background: url(../img/icb.png) no-repeat -1px -2.3px;
+}
+.icbinactiv{
+	background: url(../img/icb.png) no-repeat -30px -2.3px;
+}
+.icb{
+	width: 25px;
+	height: 25px;
+	//background-color: blue;
+	display: inline-block;
+	vertical-align: middle;
+}	
+.menufoto{
+    background: url(../img/menu.jpg);
+    width: 26px;
+	height: 26px;
+	//background-color: blue;
+	display: inline-block;
+	vertical-align: middle;
+}
+/*
+label.etichet .icbi{
+	background: url(../img/icb.png) no-repeat -3px -3px;
+	width: 25px;
+	height: 25px;
+	background-color: blue;
+	display: inline-block;
+}
+label.etichet.activ .icbi{
+	background: url(../img/icb.png) no-repeat -5px 7px;
+	
+	background-color: yellow;
+}*/
+.divc{
+	width: 150px;
+	background-color: pink;
+}
+#rofc{
+	font-size: 1.2rem;
+}
+.wrpikv{
+	margin-left: 2px;
+	background-color: cornsilk;
+}
+.infoKV{
+	list-style-type: none;
+	padding-left: 20px;
+}
+#idBtnAdgSku{
+	text-align: center;
+	width: 120px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-color: blue;
+  font-weight: bold;
+color: white;
+}
+.keySeparator{
+	margin-bottom: 12px;
+
+}
+.pozrel{
+	height: 0;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 100%;
+	//display:inline;
+}
+.unghie{
+	//float:left;
+	//position: relative;
+	
+	//display:inline;
+}
+.pfoto{
+	width:25%;
+}
+.containerDr{
+	//float:left;
+}
+.foto{
+	display:inline;
+}
